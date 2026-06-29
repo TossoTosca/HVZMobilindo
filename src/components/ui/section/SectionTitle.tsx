@@ -1,36 +1,36 @@
+import Heading from "../typography/Heading";
+import Text from "../typography/Text";
+
 interface SectionTitleProps {
-    eyebrow?: string;
     title: string;
     subtitle?: string;
     align?: "left" | "center";
 }
 
 export default function SectionTitle({
-    eyebrow,
     title,
     subtitle,
     align = "center",
 }: SectionTitleProps) {
     return (
         <div
-            className={`mb-16 ${
-                align === "center" ? "text-center" : "text-left"
-            }`}
+            className={
+                align === "center"
+                    ? "mx-auto mb-14 max-w-3xl text-center"
+                    : "mb-14"
+            }
         >
-            {eyebrow && (
-                <p className="text-primary uppercase tracking-[0.3em] text-sm font-medium mb-3">
-                    {eyebrow}
-                </p>
-            )}
-
-            <h2 className="text-4xl lg:text-5xl font-semibold tracking-tight leading-tight">
+            <Heading as="h2" variant="section">
                 {title}
-            </h2>
+            </Heading>
 
             {subtitle && (
-                <p className="text-muted-foreground mt-4 max-w-2xl mx-auto leading-relaxed">
+                <Text
+                    muted
+                    className="mt-4"
+                >
                     {subtitle}
-                </p>
+                </Text>
             )}
         </div>
     );

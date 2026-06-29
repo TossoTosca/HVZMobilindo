@@ -1,26 +1,24 @@
-import type { ReactNode } from "react";
+import type { HTMLAttributes } from "react";
+
 import { cn } from "@/lib/utils";
 
-interface TextProps {
-    children: ReactNode;
+interface TextProps extends HTMLAttributes<HTMLParagraphElement> {
     muted?: boolean;
-    className?: string;
 }
 
 export default function Text({
-    children,
-    muted,
     className,
+    muted,
+    ...props
 }: TextProps) {
     return (
         <p
             className={cn(
-                "leading-relaxed",
+                "leading-8",
                 muted && "text-muted-foreground",
                 className
             )}
-        >
-            {children}
-        </p>
+            {...props}
+        />
     );
 }

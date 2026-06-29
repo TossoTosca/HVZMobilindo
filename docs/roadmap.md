@@ -9,15 +9,15 @@
 * ⏳ SectionTitle
 
 ## Sprint 2 — Design System
-* GlassCard
-* Badge
-* Divider
-* Extend Button shadcn dengan variant gold, glass, outlineGold
-* Sprint 3 — Refactor Landing Page
-* Hero
-* Services
-* Featured Cars
-* About
+* ⏳ GlassCard
+* ⏳ Badge
+* ⏳ Divider
+* ⏳ Extend Button shadcn dengan variant gold, glass, outlineGold
+* ⏳ Sprint 3 — Refactor Landing Page
+* ✅ Hero
+* ⏳ Services
+* ⏳ Featured Cars
+* ⏳ About
 
 Semua menggunakan Design System baru.
 
@@ -34,3 +34,7 @@ Semua menggunakan Design System baru.
 * Dashboard
 * Inventory Management
 * Sales Management
+
+notes
+✅ = done 
+⏳ = not yet

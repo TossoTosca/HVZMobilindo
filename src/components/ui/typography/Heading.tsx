@@ -1,4 +1,5 @@
 import type { ElementType, ReactNode } from "react";
+
 import { cn } from "@/lib/utils";
 
 interface HeadingProps {
@@ -14,10 +15,9 @@ export default function Heading({
     variant = "section",
     className,
 }: HeadingProps) {
-
     const variants = {
-        hero: "text-5xl lg:text-7xl font-semibold tracking-tight leading-tight",
-        section: "text-4xl lg:text-5xl font-semibold tracking-tight",
+        hero: "text-5xl font-bold tracking-tight lg:text-7xl",
+        section: "text-4xl font-semibold tracking-tight lg:text-5xl",
         card: "text-xl font-semibold",
     };
 

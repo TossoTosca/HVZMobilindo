@@ -1,24 +1,20 @@
-import type { ReactNode } from "react";
+import type { HTMLAttributes } from "react";
 
-interface SectionProps {
-    children: ReactNode;
-    className?: string;
-}
+import { cn } from "@/lib/utils";
+
+interface SectionProps extends HTMLAttributes<HTMLElement> {}
 
 export default function Section({
-    children,
-    className = "",
+    className,
+    ...props
 }: SectionProps) {
     return (
         <section
-            className={`
-                py-24
-                relative
-                overflow-hidden
-                ${className}
-            `}
-        >
-            {children}
-        </section>
+            className={cn(
+                "relative py-24",
+                className
+            )}
+            {...props}
+        />
     );
 }
