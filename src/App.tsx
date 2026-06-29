@@ -1,9 +1,9 @@
-import HeroSection from "@/components/home/HeroSection";
-import ServicesSection from "./components/home/ServicesSection";
-import FeaturedCarsSection from "./components/home/FeaturedCarsSection";
-import Navbar from "./components/layout/Navbar";
-import AboutSection from "./components/home/AboutSection";
-import GlobalBackground from "./components/layout/GlobalBackground";
+import HeroSection from "@/pages/HeroSection";
+import ServicesSection from "./pages/ServicesSection";
+import FeaturedCarsSection from "./pages/FeaturedCarsSection";
+import Navbar from "./components/layout/Navbar/Navbar";
+import AboutSection from "./pages/AboutSection";
+import GlobalBackground from "./components/layout/GlobalBackground/GlobalBackground";
 
 
 export default function App() {
