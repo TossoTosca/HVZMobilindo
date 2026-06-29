@@ -3,19 +3,28 @@
 @tailwind utilities;
 
 :root {
+  /* Background System */
   --background: 222 47% 7%;
   --foreground: 210 40% 98%;
 
+  /* Surface */
   --card: 222 47% 11%;
   --card-foreground: 210 40% 98%;
 
-  --primary: 45 93% 58%; /* GOLD HVZ */
+  /* HVZ Primary (Luxury Gold) */
+  --primary: 45 93% 58%;
   --primary-foreground: 222 47% 7%;
 
+  /* Secondary / Neutral */
   --secondary: 217 33% 17%;
   --muted: 217 33% 12%;
+  --muted-foreground: 215 20% 65%;
 
+  /* Border */
   --border: 217 33% 20%;
+
+  /* Radius system */
+  --radius: 14px;
 }
 
 body {
