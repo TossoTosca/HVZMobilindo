@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "brand": "Toyota",
+    "model": "Fortuner VRZ",
+    "year": 2022,
+    "price": 565000000,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "mileage": 24000,
+    "image": "/images/cars/fortuner.jpg",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "brand": "Honda",
+    "model": "CR-V Turbo",
+    "year": 2021,
+    "price": 485000000,
+    "transmission": "Automatic",
+    "fuel": "Gasoline",
+    "mileage": 31000,
+    "image": "/images/cars/crv.jpg",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "brand": "Mitsubishi",
+    "model": "Pajero Sport Dakar",
+    "year": 2023,
+    "price": 610000000,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "mileage": 12000,
+    "image": "/images/cars/pajero.jpg",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "brand": "Hyundai",
+    "model": "Creta Prime",
+    "year": 2024,
+    "price": 345000000,
+    "transmission": "Automatic",
+    "fuel": "Gasoline",
+    "mileage": 5000,
+    "image": "/images/cars/creta.jpg",
+    "featured": false
+  }
+]

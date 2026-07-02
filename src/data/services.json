@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Jual Mobil Bekas",
+    "description": "Berbagai pilihan mobil bekas berkualitas dengan kondisi terbaik.",
+    "icon": "Car"
+  },
+  {
+    "id": 2,
+    "title": "Titip Jual Mobil",
+    "description": "Percayakan proses penjualan mobil Anda kepada kami dengan sistem yang aman.",
+    "icon": "Handshake"
+  },
+  {
+    "id": 3,
+    "title": "Beli Mobil",
+    "description": "Kami menerima pembelian mobil bekas dari berbagai merek dengan harga terbaik.",
+    "icon": "BadgeDollarSign"
+  },
+  {
+    "id": 4,
+    "title": "Konsultasi Kendaraan",
+    "description": "Bingung memilih mobil? Kami siap membantu sesuai kebutuhan Anda.",
+    "icon": "MessageCircleMore"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Andi Pratama",
+    "city": "Bekasi",
+    "rating": 5,
+    "message": "Pelayanannya sangat ramah dan proses pembelian mobil berjalan cepat. Kondisi mobil juga sesuai dengan deskripsi."
+  },
+  {
+    "id": 2,
+    "name": "Rizky Firmansyah",
+    "city": "Jakarta",
+    "rating": 5,
+    "message": "Saya titip jual mobil di HVZMobilindo dan berhasil terjual dalam waktu singkat dengan harga yang memuaskan."
+  },
+  {
+    "id": 3,
+    "name": "Siti Maharani",
+    "city": "Depok",
+    "rating": 5,
+    "message": "Sangat transparan dalam menjelaskan kondisi kendaraan. Tidak ada biaya tersembunyi."
+  }
+]
