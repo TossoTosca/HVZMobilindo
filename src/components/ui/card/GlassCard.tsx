@@ -2,8 +2,7 @@ import type { HTMLAttributes } from "react";
 
 import { cn } from "@/lib/utils";
 
-interface GlassCardProps
-    extends HTMLAttributes<HTMLDivElement> {}
+type GlassCardProps = HTMLAttributes<HTMLDivElement>;
 
 export default function GlassCard({
     className,

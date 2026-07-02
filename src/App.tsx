@@ -1,5 +1,7 @@
-import AppRouter from "@/router";
+import { Outlet } from "react-router-dom";
 
-export default function App() {
-    return <AppRouter />;
+function App() {
+  return <Outlet />;
 }
+
+export default App;

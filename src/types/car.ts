@@ -9,13 +9,15 @@ export interface Car {
 
     price: number;
 
-    transmission: "Automatic" | "Manual";
+    transmission: string;
 
-    fuel: "Gasoline" | "Diesel" | "Hybrid" | "Electric";
+    fuel: string;
 
     mileage: number;
 
     image: string;
+
+    images?: string[];
 
     featured: boolean;
 }

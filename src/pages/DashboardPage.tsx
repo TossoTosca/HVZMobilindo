@@ -1,10 +1,12 @@
 import PageLayout from "@/components/layout/PageLayout/PageLayout";
+import Dashboard from "@/features/dashboard/Dashboard";
 
-export default function DashboardPage() {
-    return (
-        <PageLayout>
-            <div></div>
-            {/* Sprint 4 */}
-        </PageLayout>
-    );
+function DashboardPage() {
+  return (
+    <PageLayout>
+      <Dashboard />
+    </PageLayout>
+  );
 }
+
+export default DashboardPage;

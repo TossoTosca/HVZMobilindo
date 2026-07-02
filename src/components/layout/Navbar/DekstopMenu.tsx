@@ -1,42 +1,48 @@
-import { Button } from "@/components/ui/button/button";
+import { Link, NavLink } from "react-router-dom";
 
-const menus = [
-    {
-        label: "Home",
-        href: "#hero",
-    },
-    {
-        label: "Services",
-        href: "#services",
-    },
-    {
-        label: "Collection",
-        href: "#cars",
-    },
-    {
-        label: "About",
-        href: "#about",
-    },
+import { buttonVariants } from "@/components/ui/button/button";
+import { cn } from "@/lib/utils";
+
+const navItems = [
+  {
+    label: "Beranda",
+    href: "/",
+  },
+  {
+    label: "Inventory",
+    href: "/inventory",
+  },
+  {
+    label: "Jual Mobil",
+    href: "/sell",
+  },
 ];
 
-export default function DesktopMenu() {
-    return (
-        <div className="hidden items-center gap-10 lg:flex">
-            <nav className="flex items-center gap-8">
-                {menus.map((menu) => (
-                    <a
-                        key={menu.label}
-                        href={menu.href}
-                        className="text-sm text-muted-foreground transition-colors hover:text-primary"
-                    >
-                        {menu.label}
-                    </a>
-                ))}
-            </nav>
+function DesktopMenu() {
+  return (
+    <div className="hidden items-center gap-8 lg:flex">
+      <nav className="flex items-center gap-6">
+        {navItems.map((item) => (
+          <NavLink
+            key={item.href}
+            to={item.href}
+            className={({ isActive }) =>
+              cn(
+                "text-sm font-medium text-zinc-400 transition hover:text-white",
+                isActive && "text-yellow-500"
+              )
+            }
+          >
+            {item.label}
+          </NavLink>
+        ))}
+      </nav>
 
-            <Button variant="default">
-                Login Admin
-            </Button>
-        </div>
-    );
+      <Link to="/inventory" className={buttonVariants({ variant: "gold" })}>
+        Lihat Mobil
+      </Link>
+    </div>
+  );
 }
+
+export default DesktopMenu;

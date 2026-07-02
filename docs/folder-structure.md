@@ -1,6 +1,14 @@
 # Struktur Folder Versi Final Untuk src/
 
 ```text
+docs/
+├──folder-structure.md
+├──last_prompt.md
+├──project_state.md
+├──roadmap.md
+│
+public/
+│
 src/
 │
 ├── assets/

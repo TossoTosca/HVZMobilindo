@@ -2,7 +2,7 @@ import type { HTMLAttributes } from "react";
 
 import { cn } from "@/lib/utils";
 
-interface DividerProps extends HTMLAttributes<HTMLHRElement> {}
+type DividerProps = HTMLAttributes<HTMLHRElement>;
 
 export default function Divider({
     className,
